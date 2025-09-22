@@ -20,13 +20,11 @@
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 function calcularPrecoFinal(nomeCliente, valorCompra) {
-    if () {
-
-    } else if () {
-
-    } else if () {
-
+    if (valorCompra <= 500) {
+        console.log(`Cliente ${nomeCliente} fez uma compra de R$${valorCompra}. Desconto aplicado: 5%. Valor final: R$${valorCompra - (valorCompra * 0.05)}`)
+    } else if (valorCompra <= 1000) {
+        console.log(`Cliente ${nomeCliente} fez uma compra de R$${valorCompra}. Desconto aplicado: 10%. Valor final: R$${valorCompra - (valorCompra * 0.1)}`)
     } else {
-
+        console.log(`Cliente ${nomeCliente} fez uma compra de R$${valorCompra}. Desconto aplicado: 15%. Valor final: R$${valorCompra - (valorCompra * 0.15)}`)
     }
 }
