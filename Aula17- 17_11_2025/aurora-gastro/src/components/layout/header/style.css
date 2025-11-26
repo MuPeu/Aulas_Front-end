@@ -1,0 +1,30 @@
+header{
+   display: flex;
+   align-items: center;
+   justify-content: space-around; 
+   padding: 20px 0;
+}
+header img{
+    width: 80px;
+    height: 60px;
+}
+.nav-header ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.btn-header{
+    background-color: #EA6D27;
+    color: #000;
+    border-radius: 15px 3px;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+.btn-header a{
+    color:#FFF;
+    text-decoration: none;
+}
